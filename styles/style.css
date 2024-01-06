@@ -1,6 +1,9 @@
 * {
     margin : 0px;
+    font-family: 'Open Sans', sans-serif;
 }
+
+/*--------------- header section style ------- */
 
 header {
     height: 110vh;
@@ -30,4 +33,133 @@ header {
     border: 0px;
     padding: 10px 13px;
     border-radius: 4px;
+}
+
+/* ---------- Failure Section Style ------- */
+
+.failer-section {
+    background-color: rgb(225, 241, 232);
+    padding:7% 0px;
+}
+.failer-container {
+    width:80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:80px;
+}
+.failer-image >img {
+   width: 500px;
+}
+.failer-text {
+    margin-top: 100px;
+}
+.failer-header {
+    font-size: 40px;
+}
+.failer-description {
+    font-size: 19px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.icon-text > p {
+    font-size: 17px;
+    margin: 5px 0px;
+}
+.icon-text > p > i {
+    color: green;
+    margin-right: 5px;
+}
+
+/*---------- plan section style ------------*/
+
+.plan-section {
+    padding: 100px 30px;
+}
+.plan-title {
+    font-size: 40px;
+    text-align: center;
+}
+.plan-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 70px 0px;
+}
+.plan-box > h2 {
+    font-size:28px;
+    padding: 10px;
+}
+.image {
+    height: 250px;
+    width: 70%;
+    margin:80px auto ;
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.image-text {
+    padding-top:10%;
+    padding-left: 7%;
+}
+.image h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+.image-button {
+    color: orangered;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: whitesmoke;
+    border:none;
+    padding: 12px 17px;
+    border-radius: 3px;
+}
+
+/* ----------- footer section style------------ */
+
+footer {
+    height: 70vh;
+    background-color: black;
+}
+.footer-area {
+    width: 80%;
+    margin: 0px auto;    
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10%;
+}
+.footer-text {
+    color: azure;
+    width: 50%;
+}
+.footer-text > h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-img img {
+    width:40px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.footer-form h1 {
+    color: azure;
+    font-size: 35px;
+}
+
+.footer-form input {
+    font-size: 16px;
+    background-color: black;
+    color: azure;
+    border: 1px solid azure;
+    padding: 10px 18px;
+    border-radius: 4px;
+    display: block;
+    margin-top: 15px;
 }
